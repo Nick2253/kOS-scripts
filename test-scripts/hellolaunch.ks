@@ -3,6 +3,10 @@
 //First, we'll clear the terminal screen to make it look nice
 CLEARSCREEN.
 
+//Now, wait until ship is loaded to set default throttle to 0%
+WAIT until ship:unpacked.
+SET ship:control:pilotmainthrottle to 0.
+
 //Next, we'll lock our throttle to 100%.
 LOCK THROTTLE TO 1.0.   // 1.0 is the max, 0.0 is idle.
 
