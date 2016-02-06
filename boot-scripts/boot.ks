@@ -16,7 +16,16 @@
 
 
 //First, we'll clear the terminal screen to make it look nice
+// and set it to the correct size.
 CLEARSCREEN.
+SET TERMINAL:WIDTH 80.
+SET TERMINAL:HEIGHT 24.
+
+//Now we run basic diagnostics of our vessel
+SET name TO VESSEL:NAME.
+SET status to VESSEL:STATUS.
+
+//If vessel is PRELAUNCH, we need to load the vessel's programming on to its CPU.
 
 //This is our countdown loop, which cycles from 10 to 0
 PRINT "Counting down:".
