@@ -1,4 +1,4 @@
-# kOS-scripts
+# kOS Scripts
 kOS Scripts for Kerbal Space Program
 
 This repository contains scripts and other snippets of code for Kerbal Operating System (kOS), a mod for Kerbal Space program.
