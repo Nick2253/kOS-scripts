@@ -25,4 +25,3 @@ Eventually, I hope these scripts will serve as building blocks for mission scrip
 - [Mission Toolkit](http://kos.wikia.com/wiki/Mission_toolkit_v3)
 - [FuzzyWuzzy Scripts](https://github.com/FuzzyWuzzie/kOS)
 - [Launch and Circularization](https://www.reddit.com/r/Kos/comments/2v1t7c/launch_circularization_script/)
-- 
