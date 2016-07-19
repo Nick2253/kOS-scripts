@@ -18,3 +18,9 @@ Eventually, the repository will contain code which accomplishes the following:
 - Docking.
 
 Eventually, I hope these scripts will serve as building blocks for mission scripts.
+
+# Inspirational Links
+- [Missile Guidance Program](https://www.reddit.com/r/KerbalSpaceProgram/comments/2bt9r6/kos_my_new_missile_guidance_program_is_accurate/)
+- [Automated Rendezvous and Docking](https://www.reddit.com/r/Kos/comments/2n78zf/i_finally_did_it_automated_rendezvous_and_docking/)
+- [Mission Toolkit](http://kos.wikia.com/wiki/Mission_toolkit_v3)
+- [FuzzyWuzzy Scripts](https://github.com/FuzzyWuzzie/kOS)
