@@ -1,6 +1,8 @@
 This file is the reference for all the runmodes used in my scripts:
 
 - 0 - Initialization.  In this runmode, the script should do some basic checks of the ship and its surroundings, and determine which runmode the script should go to next.
+- 1 - Prep rocket for launch.
+- 2 - Prep spaceplane for launch.
 - 5 - Plot intercept.
 - 10 - Takeoff in atmosphere.
 - 15 - Takeoff in vacuum.
