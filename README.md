@@ -10,8 +10,11 @@ If you find any bugs, please let me know by filling an [issue](https://github.co
 Eventually, the repository will contain code which accomplishes the following:
 - Launch and circularization at a specified orbit for an arbitrary rocket.
 - Launch and circularization at a specified orbit for an arbitrary spaceplane.
-- Orbit transfer, with selectable method (Hohmann, bi-elliptic)
-- Intercept with other spacecraft
-- Docking
+- Orbit transfer, with selectable method (Hohmann, bi-elliptic).
+- Landing in vacuum.
+- Landing in atmosphere with aerobrake.
+- Propulsive landing in atmosphere.
+- Intercept with other spacecraft.
+- Docking.
 
 Eventually, I hope these scripts will serve as building blocks for mission scripts.
