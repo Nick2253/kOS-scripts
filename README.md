@@ -26,3 +26,4 @@ Eventually, I hope these scripts will serve as building blocks for mission scrip
 - [FuzzyWuzzy Scripts](https://github.com/FuzzyWuzzie/kOS)
 - [Launch and Circularization](https://www.reddit.com/r/Kos/comments/2v1t7c/launch_circularization_script/)
 - [Autoland for Spaceplanes](https://www.reddit.com/r/Kos/comments/2m95li/autoland_for_spaceplanes/)
+- [Hover PID Tutorial](https://www.reddit.com/r/Kos/comments/3bgh32/hover_pid_tutorial/)
