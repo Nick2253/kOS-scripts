@@ -28,3 +28,4 @@ Eventually, I hope these scripts will serve as building blocks for mission scrip
 - [Autoland for Spaceplanes](https://www.reddit.com/r/Kos/comments/2m95li/autoland_for_spaceplanes/)
 - [Hover PID Tutorial](https://www.reddit.com/r/Kos/comments/3bgh32/hover_pid_tutorial/)
 - [Automatically Enable Fuel Cell](http://forum.kerbalspaceprogram.com/index.php?/topic/61827-11-kos-scriptable-autopilot-system-v0201-2016515/&page=147#comment-2284400)
+- [Calculate time to impact](https://www.reddit.com/r/Kos/comments/34mm4c/a_function_for_calculating_time_until_surface/)
