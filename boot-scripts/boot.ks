@@ -1,18 +1,39 @@
-////////////////////
-// UNIVERSAL BOOT
+///////////////////////////////////
+// kUBL - kOS Universal Boot Loader
 //
-// Initializes the spacecraft, downloads the correct mission script, and runs it.
+// Version 0.1 - 2015-01-16
+// This file is distributed under the terms of the MIT license, (c) Nick2253
 //
 // Tested with kOS v0.18.3
-
-////////////////////
-// This file is distributed under the terms of the MIT license, (c) Nick2253
-
-////////////////////
+//
+///////////////////////////////////
+// README
+// 
+// kUBL is the kOS Universal Boot Loader.  It is a "low-level" initialization
+// script that initializes the active craft, loads and processes "mission"
+// scripts for active craft, and loads the correct guidance computer system.
+// As such, kUBL is typically only run on the "master" processor for a craft.
+// As part of its initialization, kUBL will prepare any "secondary" processors 
+// for their roles/functions.
+//
+// More specifically, on boot, kUBL performs the following
+// tasks:
+//    - Perform error checking to make sure another guidance computer is not
+//      already running on the active craft.
+//    - Initialize global variables.
+//    - Connects to archive, and loads mission script.
+//    - Based on the mission script, downloads the correct guidance computer
+//      system and supporting libraries.
+//    - Identifies the "client" processor, preps it, and loads the client
+//      scripts on it.
+//    - Identifies the "secondary" processor(s), and loads the correct scripts
+//      based on their function (like stage retrieval, etc.)
+//
+///////////////////////////////////
 // VERSION HISTORY
 // 0.1 - 2015-01-16
 //  -First version of the script
-
+///////////////////////////////////
 
 
 //First, we'll clear the terminal screen to make it look nice
