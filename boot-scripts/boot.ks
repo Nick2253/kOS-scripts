@@ -21,6 +21,8 @@
 //    - Perform error checking to make sure another guidance computer is not
 //      already running on the active craft.
 //    - Initialize global variables.
+//    - Perform a health-check of the craft to make sure nothing is wrong or
+//      missing.
 //    - Connects to archive, and loads mission script.
 //    - Based on the mission script, downloads the correct guidance computer
 //      system and supporting libraries.
