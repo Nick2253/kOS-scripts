@@ -71,3 +71,5 @@ PRINT "       _   _      _                      _   ___           _   ".
 PRINT "      | | | |_ _ (_)_ _____ _ _ ___ __ _| | | _ ) ___  ___| |_".
 PRINT "      | |_| | ' \| \ V / -_) '_(_-</ _` | | | _ \/ _ \/ _ \  _|".
 PRINT "       \___/|_||_|_|\_/\___|_| /__/\__,_|_| |___/\___/\___/\__|".
+
+https://www.reddit.com/r/Kos/comments/3zrq4o/starting_a_program_on_another_cpu/
