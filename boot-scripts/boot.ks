@@ -44,6 +44,31 @@ CLEARSCREEN.
 SET TERMINAL:WIDTH 80.
 SET TERMINAL:HEIGHT 24.
 
+//Now we can print our splash screen.
+PRINT "                                                         '".
+PRINT "             .                       .--.        *               +         *".
+PRINT "    *                      *        / /  `               +   /\".
+PRINT "                  `                | |      +              .'  '.   *".
+PRINT "                                    \ \__,         *      /======\      +".
+PRINT "              +                      '--'                ;:.  _   ;".
+PRINT "                           .                             |:. (_)  |".
+PRINT "                                      *                  |:.  _   |".
+PRINT "                                               +         |:. (_)  |          *".
+PRINT " dP       dP     dP  888888ba  dP                        ;:.      ;".
+PRINT " 88       88     88  88    `8b 88          '           .' \:.    / `.".
+PRINT " 88  .dP  88     88 a88aaaa8P' 88                     / .-'':._.'`-. \".
+PRINT " 88888"   88     88  88   `8b. 88                     |/    /||\    \|".
+PRINT " 88  `8b. Y8.   .8P  88    .88 88                  _...--"""````"""--..._".
+PRINT " dP   `YP `Y88888P'  88888888P 88888888P     _.-'``                      ``'-._".
+PRINT "".
+PRINT "       kOS Universal Boot Loader".
+PRINT "".
+PRINT "".
+
+//Begin initialization
+PRINT "Please be patient while system initializes...".
+
+
 //Now we run basic diagnostics of our vessel
 SET name TO VESSEL:NAME.
 SET status to VESSEL:STATUS.
@@ -56,20 +81,5 @@ FROM {local countdown is 10.} UNTIL countdown = 0 STEP {SET countdown to countdo
     PRINT "..." + countdown.
     WAIT 1. // pauses the script here for 1 second.
 }
-
-PRINT "__/\\\________/\\\______/\\\\\\\\\\\_____/\\\\\\\\\\\\\___".
-PRINT " _\/\\\_____/\\\//_____/\\\/////////\\\__\/\\\/////////\\\_".
-PRINT "  _\/\\\__/\\\//_______\//\\\______\///___\/\\\_______\/\\\_".
-PRINT "   _\/\\\\\\//\\\________\////\\\__________\/\\\\\\\\\\\\\/__".
-PRINT "    _\/\\\//_\//\\\__________\////\\\_______\/\\\/////////____".
-PRINT "     _\/\\\____\//\\\____________\////\\\____\/\\\_____________".
-PRINT "      _\/\\\_____\//\\\____/\\\______\//\\\___\/\\\_____________".
-PRINT "       _\/\\\______\//\\\__\///\\\\\\\\\\\/____\/\\\_____________".
-PRINT "        _\///________\///_____\///////////______\///______________".
-PRINT "".
-PRINT "       _   _      _                      _   ___           _   ".
-PRINT "      | | | |_ _ (_)_ _____ _ _ ___ __ _| | | _ ) ___  ___| |_".
-PRINT "      | |_| | ' \| \ V / -_) '_(_-</ _` | | | _ \/ _ \/ _ \  _|".
-PRINT "       \___/|_||_|_|\_/\___|_| /__/\__,_|_| |___/\___/\___/\__|".
 
 https://www.reddit.com/r/Kos/comments/3zrq4o/starting_a_program_on_another_cpu/
