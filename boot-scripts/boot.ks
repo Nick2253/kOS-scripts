@@ -16,6 +16,17 @@
 // As part of its initialization, kUBL will prepare any "secondary" processors 
 // for their roles/functions.
 //
+// At the moment, kUBL struggles with payload processors.  It is unable to dis-
+// tinguish between a stage recovery processor and a payload processor.  As
+// long as a stage separates the processor from the master processor, it won't
+// be confused for a client processor.  
+//
+// The easiest solution to to manually override kUBL after initialization, but
+// before launch.  However, if the mission file is created properly then kUBL 
+// will download the necessary supporting libraries, so the change could be
+// made at any time.
+// 
+//
 // More specifically, on boot, kUBL performs the following
 // tasks:
 //    - Perform error checking to make sure another guidance computer is not
