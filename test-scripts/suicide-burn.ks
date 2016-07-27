@@ -10,4 +10,4 @@
 // body:geopositionof(positionat(time:seconds + someTime)):terrainheight
 // Calculate terrain height at sometime in the future of your orbit.
 
--v/(r-g)=(v+sqrt(v^2+2*g*h))/g + t, v=-20, g=10, h=100, r=12
+ -v/(r-g)=(v+sqrt(v^2+2*g*h))/g + t, v=-20, g=10, h=v^2/(2*(r-g)), r=12
