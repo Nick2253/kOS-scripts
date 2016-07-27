@@ -11,3 +11,5 @@
 // Calculate terrain height at sometime in the future of your orbit.
 
  -v/(r-g)=(v+sqrt(v^2+2*g*h))/g + t, v=-20, g=10, h=v^2/(2*(r-g)), r=12
+
+t = -1/5 sqrt(3/2) sqrt(v^2)-(3 v)/5
