@@ -35,3 +35,7 @@ After altitude falls below the buffer:
 throttle <- your_suicide_burn_alt / radar_alt
 
 you just have to update your estimation for D constantly.
+
+D=V^2/(-2A)
+
+Where: D=suicide burn altitude V=initial vertical velocity A=maximum deceleration (net force upwards(-) / mass) . 
