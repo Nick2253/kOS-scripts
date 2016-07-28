@@ -26,4 +26,12 @@ ti = (v+sqrt(v^2+2gh))/g
 
  -v/(r-g)=(v+sqrt(v^2+2*g*h))/g + t, v=-20, g=10, h=v^2/(2*(r-g)), r=12
 
-t = -1/5 sqrt(3/2) sqrt(v^2)-(3 v)/5
+dt = -1/5 sqrt(3/2) sqrt(v^2)-(3 v)/5
+
+
+Other thoughts:
+After altitude falls below the buffer:
+
+throttle <- your_suicide_burn_alt / radar_alt
+
+you just have to update your estimation for D constantly.
