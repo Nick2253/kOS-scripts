@@ -20,18 +20,28 @@
 //    
 //
 
-LOG "TIME,HEIGHT,MAS,THRUSTX,THRUSTY,VELX,VELY,ANGLE" TO logfile.
+LOG "TIME,HEIGHT,MASS,THRUST,VELX,VELY,ANGLE" TO logfile.
+
+LOCAL starttime TO TIME:SECONDS. 
+LOCAL time TO 0.
+LOCAL height TO 0.
+LOCAL mass TO 0.
+LOCAL thrustx TO 0.
+LOCAL thrusty TO 0.
+LOCAL velx TO 0.
+LOCAL vely TO 0.
+LOCAL angle TO 0.
 
 UNTIL false {
   WAIT 1.
+  SET time TO TIME:SECONDS-starttime.
+  SET height TO ALTITUDE.
+  SET mass TO MASS.
+  SET thrust TO
+  SET velx TO GROUNDSPEED.
+  SET vely TO VERTICALSPEED.
+  SET angle TO 
   SET
-  SET
-  SET
-  SET
-  SET
-  SET
-  SET
-  SET
-  SET
-  LOG time + "," + height + "," + mass + "," + thrustx + "," + thrusty + "," + angle to logfile.
+  LOG time + "," + height + "," + mass + "," + thrust + "," + velx + "," + vely + "," + angle to logfile.
+  WAIT 1.
 }.
